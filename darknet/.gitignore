@@ -1,0 +1,33 @@
+*.o
+*.dSYM
+*.csv
+*.out
+*.png
+*.jpg
+old/
+mnist/
+data/
+caffe/
+grasp/
+images/
+opencv/
+convnet/
+decaf/
+submission/
+cfg/
+darknet
+.fuse*
+
+# OS Generated #
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.swp
+
+# MP4s and jpgs
+*.mp4
+*.jpg
+
+# weights
+*.weights
