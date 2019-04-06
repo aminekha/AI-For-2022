@@ -10,6 +10,9 @@ sample_img/out/*
 # Annotated test results
 results/
 
+# bin folder
+bin/
+
 # Intermediate training data
 backup/
 tfnet/yolo/parse-history.txt
