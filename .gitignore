@@ -2,9 +2,6 @@
 # Python bytecode
 *.pyc
 
-# Weight files
-bin/
-
 # Sample image data
 sample_img/*.jpg
 !sample_img/sample_*.jpg
@@ -13,11 +10,13 @@ sample_img/out/*
 # Annotated test results
 results/
 
+# bin folder
+bin/
+
 # Intermediate training data
 backup/
 tfnet/yolo/parse-history.txt
 tfnet/yolo/*.parsed
-*.txt
 !requirements*.txt
 *.pb
 /profile
